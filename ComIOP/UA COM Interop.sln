@@ -25,6 +25,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UA COM Server Class Library
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UA Server Controls", "..\SampleApplications\Samples\ServerControls.Net4\UA Server Controls.csproj", "{80056988-44E7-4EF4-9F59-50BCF215CB03}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UA COM Console Server Wrapper", "ConsoleWrapper\UA COM Console Server Wrapper.csproj", "{7F8D2D98-D3A8-490D-BE4F-2ECB115A77D4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UA COM Interop NetCore Library", "UA COM Library\UA COM Interop NetCore Library.csproj", "{D4916398-4446-4311-9602-ED83AA862573}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -125,6 +129,30 @@ Global
 		{80056988-44E7-4EF4-9F59-50BCF215CB03}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{80056988-44E7-4EF4-9F59-50BCF215CB03}.Release|Win32.ActiveCfg = Release|Any CPU
 		{80056988-44E7-4EF4-9F59-50BCF215CB03}.Release|Win32.Build.0 = Release|Any CPU
+		{7F8D2D98-D3A8-490D-BE4F-2ECB115A77D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F8D2D98-D3A8-490D-BE4F-2ECB115A77D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F8D2D98-D3A8-490D-BE4F-2ECB115A77D4}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{7F8D2D98-D3A8-490D-BE4F-2ECB115A77D4}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{7F8D2D98-D3A8-490D-BE4F-2ECB115A77D4}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{7F8D2D98-D3A8-490D-BE4F-2ECB115A77D4}.Debug|Win32.Build.0 = Debug|Any CPU
+		{7F8D2D98-D3A8-490D-BE4F-2ECB115A77D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F8D2D98-D3A8-490D-BE4F-2ECB115A77D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F8D2D98-D3A8-490D-BE4F-2ECB115A77D4}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{7F8D2D98-D3A8-490D-BE4F-2ECB115A77D4}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{7F8D2D98-D3A8-490D-BE4F-2ECB115A77D4}.Release|Win32.ActiveCfg = Release|Any CPU
+		{7F8D2D98-D3A8-490D-BE4F-2ECB115A77D4}.Release|Win32.Build.0 = Release|Any CPU
+		{D4916398-4446-4311-9602-ED83AA862573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4916398-4446-4311-9602-ED83AA862573}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4916398-4446-4311-9602-ED83AA862573}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{D4916398-4446-4311-9602-ED83AA862573}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{D4916398-4446-4311-9602-ED83AA862573}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{D4916398-4446-4311-9602-ED83AA862573}.Debug|Win32.Build.0 = Debug|Any CPU
+		{D4916398-4446-4311-9602-ED83AA862573}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4916398-4446-4311-9602-ED83AA862573}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4916398-4446-4311-9602-ED83AA862573}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{D4916398-4446-4311-9602-ED83AA862573}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{D4916398-4446-4311-9602-ED83AA862573}.Release|Win32.ActiveCfg = Release|Any CPU
+		{D4916398-4446-4311-9602-ED83AA862573}.Release|Win32.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

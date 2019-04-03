@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <RootNamespace>Opc.Ua.Com</RootNamespace>
+    <ApplicationIcon />
+    <OutputType>Library</OutputType>
+    <StartupObject />
+    <AssemblyName>Opc.Ua.ComInterop</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Common\BuildDesign.bat" />
+    <None Remove="Common\ModelDesign.csv" />
+    <None Remove="Common\ModelDesign.xml" />
+    <None Remove="Common\Opc.Ua.Com.PredefinedNodes.uanodes" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Common\BuildDesign.bat" />
+    <Content Include="Common\ModelDesign.csv" />
+    <Content Include="Common\ModelDesign.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Common\Opc.Ua.Com.PredefinedNodes.uanodes" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.2.4" />
+    <PackageReference Include="System.Runtime.InteropServices" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\SampleApplications\SDK\Opc.Ua.Client\Opc.Ua.Client.csproj" />
+    <ProjectReference Include="..\..\SampleApplications\SDK\Opc.Ua.Configuration\Opc.Ua.Configuration.csproj" />
+    <ProjectReference Include="..\..\SampleApplications\SDK\Opc.Ua.Server\Opc.Ua.Server.csproj" />
+    <ProjectReference Include="..\..\Stack\Opc.Ua.Core\Opc.Ua.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+</Project>
